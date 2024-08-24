@@ -1,0 +1,52 @@
+    html {
+      background: url(topper.jpg) no-repeat center top fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    body {
+      margin: 0;
+      font-family: Hack, sans-serif;
+    }
+    main {
+      font-size: 1em;
+      width: 80%;
+      text-align: left;
+      margin: 40px auto 100px auto;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.6);
+      border-radius: 8px;
+      color: white;
+      line-height: 1.2em;
+    }
+    h1 {
+      text-align: center;
+      text-shadow: 3px 3px 4px #777;
+    }
+    a {
+      color: white;
+      text-shadow: 3px 3px 4px #777;
+    }
+
+    section {
+      background-color: rgba(55,159,170,0.5);
+      margin: 200px 0 0 auto;
+      width: 80%;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 0.6em;
+      text-shadow: none;
+    }
+
+    footer {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      padding: 4px 10px;
+      width: 100%;
+      background-color: rgba(0,0,0,0.6);
+      color: #CCC;
+      /*text-shadow: 3px 3px 4px #777;*/
+      text-align: right;
+    }
